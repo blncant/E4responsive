@@ -1,67 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page Portfolio</title>
-    <link rel="stylesheet" href="./assets/styles.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Landing Page Portfolio</title>
+		<link rel="stylesheet" href="./assets/styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
 
-  <body>
-    <header>
-      <img class="logo" src="./assets/img/chess-queen-regular.svg" alt="logo" />
-      <nav class="navbar">
-        <ul class="navbar-list">
-          <li><a href="#">HOME</a></li>
-          <li><a href="#">NOSOTROS</a></li>
-          <li><a href="#">CATEGORIAS</a></li>
-          <li><a href="#">CONTACTO</a></li>
-        </ul>
-      </nav>
-    </header>
+	<body>
+		<header>
+			<img class="logo" src="./assets/img/chess-queen-regular.svg" alt="logo" />
+			<nav class="navbar">
+				<label for="toggle-menu"><i class="fas fa-bars"></i></label>
+				<input type="checkbox" id="toggle-menu" />
+				<ul class="navbar-list">
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">ABOUT US</a></li>
+					<li><a href="#">SERVICES</a></li>
+					<li><a href="#">CONTACT US</a></li>
+				</ul>
+			</nav>
+		</header>
 
-    <main>
-      <section id="hero">
-        <div class="hero-info">
-          <h1>Hola<span>,</span></h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Reprehenderit excepturi quos quidem, cum autem accusamus sit quasi.
-            Atque saepe dolorem eum perferendis iusto, ex doloribus sapiente
-            tenetur praesentium consequatur, suscipit voluptatibus quibusdam
-            fugiat, repudiandae ratione modi ipsa distinctio quasi facere quia
-            cum nulla a quisquam. Reprehenderit labore modi aperiam itaque.
-          </p>
-          <div class="hero-info-bottom">
-            <a href="#">Clientes</a>
-            <a href="#">Contacto</a>
-          </div>
-        </div>
-        <div class="hero-photo">
-          <img
-            src="./assets/img/undraw_designer_life_re_6ywf.svg"
-            alt="Foto portada"
-          />
-        </div>
-      </section>
+		<main>
+			<section id="hero">
+				<div class="hero-info">
+					<h1>Hi<span>,</span></h1>
+					<p>
+						We are K&Q. <br />
+						Creative Studio - Brand identity + Design.
+					</p>
+					<div class="hero-info-bottom">
+						<a href="#" class="btn-contacto">Watch Reel</a>
+						<a href="#" class="btn-ver">Let's talk!</a>
+					</div>
+				</div>
+				<img src="./assets/img/undraw_designer_life_re_6ywf.svg" alt="Foto portada" class="hero-img" />
+			</section>
 
-      <section id="identidad">
-        <div class="identidad-info">
-          <h2>QUIENES SOMOS</h2>
-          <h1>Sobre Nosotros</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
-            ipsum iste sapiente repellendus, nisi quae labore numquam vel quia
-            modi quod mollitia similique, qui nulla ducimus vitae dolores ipsa
-            debitis ex suscipit aliquid culpa. Minima, repellendus sit. Dolor
-            saepe, atque suscipit sequi quia ducimus aliquam id. Totam accusamus
-            quae repellat.
-          </p>
-          <div class="nosotros">+10 Clientes</div>
-          <div class="nosotros">+10 Años de Experiencia</div>
-        </div>
-      </section>
-    </main>
-  </body>
+			<section id="about">
+				<div class="about-info">
+					<h2>WHO WE ARE</h2>
+					<h1>About Us</h1>
+					<p>
+						K&Q is a branding studio situated in Buenos Aires formed in 2014 by Leo. Specialized in... From
+						educational institutions to bars & restaurants, companies love working with us because we...
+					</p>
+					<div class="nosotros">
+						<p><span>50+</span> Clients</p>
+						<p><span>20+</span> Years of Experience</p>
+					</div>
+				</div>
+			</section>
+
+			<section id="services">
+				<div class="services-text">
+					<h2>WHAT WE DO</h2>
+					<h1>Our Services</h1>
+				</div>
+
+				<div class="services-container">
+					<div class="services-card">
+						<img src="./assets/img/bezier-curve-solid.svg" alt="design" />
+						<h3>Branding & Design</h3>
+						<p>
+							Brand identity | Packaging & Print | Environmental & Signage | Creative concept | Campaigns
+							& Strategy
+						</p>
+					</div>
+					<div class="services-card">
+						<img src="./assets/img/book-open-solid.svg" alt="editorial" />
+						<h3>Editorial Design</h3>
+						<p>Magazines design | Books & manuals | Catalogs | Brochures | e-books</p>
+					</div>
+					<div class="services-card">
+						<img src="./assets/img/code-solid.svg" alt="digital" />
+						<h3>Digital Design</h3>
+						<p>
+							Social Media | <br />
+							Web Design
+						</p>
+					</div>
+				</div>
+				<a href="#">View all ></a>
+			</section>
+
+			<section id="contact">
+				<div class="contact-left">
+					<h2>KEEP IN TOUCH</h2>
+					<h1>Contact Us</h1>
+
+					<div class="contact-info">
+						<h3>LK</h3>
+						<div class="contact-info-item">
+							<img src="./assets/img/comment-solid.svg" alt="whatsapp" />
+							<p>+54 9 11 00000000</p>
+						</div>
+						<div class="contact-info-item">
+							<img src="./assets/img/paper-plane-regular.svg" alt="icono" />
+							<p>hello@knq.com</p>
+						</div>
+						<div class="contact-info-item">
+							<img src="./assets/img/location-dot-solid.svg" alt="icono" />
+							<p>Buenos Aires, Argentina</p>
+						</div>
+					</div>
+				</div>
+				<img src="./assets/img/wepik-photo-mode-2022731-203322.png" alt="mapa" class="contact-img" />
+			</section>
+		</main>
+
+		<footer>
+			<div class="footer">
+				<img src="./assets/img/chess-queen-regular.svg" alt="logo" />
+				<p>© K&Q Studio 2022</p>
+			</div>
+		</footer>
+	</body>
 </html>
